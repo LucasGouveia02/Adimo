@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Login</title>
+</head>
+<header
+    class=".bg-light.bg-gradient navbar text-bg-dark navbar navbar-expand-lg navbar-dark fixed-top py-3 border-bottom p-2 mb-2 border-opacity-50"
+    id="mainNav">
+    <div class=" container px-4 px-lg-5">
+        <a class="navbar-brand display-1" href="#page-top"
+            style=" font-family: bungee Hairline ; font-size: x-large;">ADIMO</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+            aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                <li class="nav-item"><a class="nav-link" href="../Principal/index.html">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link" href="../Principal/portfolio.html">Portfólio</a></li>
+                <li class="nav-item"><a class="nav-link" href="../Principal/login.html">Login</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Acesso interno</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="../Principal/FormCLiente.html">Cadastro cliente</a></li>
+                        <li><a class="dropdown-item" href="../Principal/FormImoveis.html">Cadastro de imóveis</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<body class="bg-dark">
+    <div class="container">
+        <div class="bg-dark col-4 p-5 " style="height:150px ; width: 1000px;">
+        </div>
+    </div>
+    <div class="row align-items-center">
+        <div class="col-md-10  mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-dark">
+                <h1 class="text-light">Login</h1>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="E-mail">
+                    <label for="inputEmail">E-mail</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Senha">
+                    <label for="inputPassword">Senha</label>
+                </div>
+                <div class="container text-light row align-items-star mb-2">
+                    <div class="col form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Atendente
+                        </label>
+                    </div>
+                    <div class="col form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                            checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Cliente
+                        </label>
+                    </div>
+                </div>
+                <button class="container-fluid btn btn-lg btn-info " type="submit">Entrar</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+<footer class=" bg-dark text-light text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <div class="mt-5 me-5 d-none d-lg-block">
+        </div>
+    </section>
+    <!-- Section: Social media -->
+    <!-- Section: Links  -->
+    <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        <i class="fas fa-gem me-3"></i>ADIMO
+                    </h6>
+                    <p>
+                        Rua dos inocentes nº 157
+                    </p>
+                    <p>
+                        Jardim das Rosas
+                    </p>
+                    <p>
+                        Rio de Janeiro | RJ
+                    </p>
+                    <p>
+                        Brasil
+                    </p>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Produtos
+                    </h6>
+                    <p>
+                        <a href="../Principal/portfolio.html" class="text-reset">Apartamentos</a>
+                    </p>
+                    <p>
+                        <a href="../Principal/portfolio.html" class="text-reset">Studio</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Links úteis
+                    </h6>
+                    <p>
+                        <a href="../Principal/index.html" class="text-reset">Sobre</a>
+                    </p>
+                    <p>
+                        <a href="../Principal/portfolio.html" class="text-reset">Portfólio</a>
+                    </p>
+                    <p>
+                        <a href="../Principal/login.html" class="text-reset">Login</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">Contatos</h6>
+                    <p><i class="fas fa-home me-3"></i> Rio de Janeiro, Jardim das Rosas, RJ</p>
+                    <p>
+                        <i class="fas fa-envelope me-3"></i>
+                        contato@adimo.com.br
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> +55 (21) 4002-8922</p>
+                    <p><i class="fas fa-print me-3"></i> +55 (21) 94744-7591</p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+    </section>
+    <!-- Section: Links  -->
+</footer>
+<script rel="stylesheet" src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
